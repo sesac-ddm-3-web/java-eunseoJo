@@ -33,7 +33,7 @@ public class problem01 {
         String totalPrice = df.format(total);
 
         System.out.println("========최종 계산 결과=========");
-        System.out.println("원금 : " + principalStr + "원");
+        System.out.printf("원금 : %,d원\n"  ,principal );
         System.out.println("연이율 : " + interestRate + "%");
         System.out.println("============================");
 
