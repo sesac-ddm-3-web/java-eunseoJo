@@ -14,8 +14,8 @@ public record CommentResponseDto(
     {
         return new CommentResponseDto(
                 comment.getCommentId(),
-                comment.getContent(),
                 comment.getUser().getUsername(),
+                comment.getContent(),
                 comment.getCommentDate()
         );
     }
