@@ -27,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### 커스텀 ###
+.idea
+*.iml
+*.xml
+modules.xml
